@@ -3,6 +3,25 @@
     src:url(./Fonts/Brown-Sugar-Font/Brown\ Sugar\ .ttf);
 }
 
+@media (max-width:1275px) and (min-width:930px){
+    .header-center #name-group h1{
+        font-size:5rem;
+    }
+}
+@media (max-width:930px) {
+    html{
+        font-size:9px;
+    }
+}
+@media (max-width:500px){
+    html{
+        font-size:7px;
+    }
+
+    .header-center #name-group h1{
+        font-size:4rem;
+    }
+}
 
 
 body{
@@ -49,7 +68,7 @@ main{
 }
 #name-group img{
     margin-right: 2em;
-    width:15%; 
+    width:15vw; 
 }
 .header-center h5{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;

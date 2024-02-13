@@ -3,25 +3,6 @@
     src:url(./Fonts/Brown-Sugar-Font/Brown\ Sugar\ .ttf);
 }
 
-@media (max-width:1275px) and (min-width:930px){
-    .header-center #name-group h1{
-        font-size:5rem;
-    }
-}
-@media (max-width:930px) {
-    html{
-        font-size:9px;
-    }
-}
-@media (max-width:500px){
-    html{
-        font-size:7px;
-    }
-
-    .header-center #name-group h1{
-        font-size:4rem;
-    }
-}
 
 
 body{
@@ -185,4 +166,49 @@ footer{
 #contact-info{
     display: flex;
     justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+@media (max-width:1275px) and (min-width:930px){
+    .header-center #name-group h1{
+        font-size:5rem;
+    }
+}
+@media (max-width:1260px){
+    #section-1 #squiggly{
+        max-width:18%;
+        height: 18%;
+        bottom:-10;
+    }
+}
+@media (max-width:930px) {
+    html{
+        font-size:9px;
+    }
+    #section-1 #squiggly{
+        max-width:15%;
+        bottom:-10;
+    }
+}
+@media (max-width:600px){
+    #section-1 #squiggly{
+        width:10%;
+        height: 10%;
+        bottom:25;
+    }
+}
+@media (max-width:500px){
+    html{
+        font-size:7px;
+    }
+
+    .header-center #name-group h1{
+        font-size:4rem;
+    }
 }

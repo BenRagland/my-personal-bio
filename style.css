@@ -195,6 +195,9 @@ footer{
         max-width:15%;
         bottom:-10;
     }
+    .section-imgs{
+        height:70%;
+    }
 }
 @media (max-width:600px){
     #section-1 #squiggly{

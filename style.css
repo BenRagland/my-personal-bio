@@ -92,11 +92,11 @@ main{
 
 
 /* Sections */
-section .section-imgs + div{
+section .section-imgs + div , #contact-info{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 section{
-    margin: 1em 2em 0 2em;
+    margin: 4em 2em 0 2em;
 }
  #section-1{
     background-color:#fdfdfd;
@@ -105,6 +105,10 @@ section{
 #section-2, #section-4{
     /* border:solid 2px yellow; */
     margin-left:45%;
+}
+#section-1, #section-3{
+    /* border:solid 2px yellow; */
+    margin-right:45%;
 }
 
 
@@ -143,7 +147,7 @@ div .section-imgs #section-2{
 /* Footer */
 
 footer{
-    margin:1em 0 0 0;
+    margin:3em 0 4em 0;
     /* border:solid 2px red; */
 
 }
@@ -166,6 +170,7 @@ footer{
 #contact-info{
     display: flex;
     justify-content: space-evenly;
+    margin: 5em 0 0 0 
 }
 
 
